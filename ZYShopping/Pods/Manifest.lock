@@ -1,0 +1,15 @@
+PODS:
+  - BmobSDK (1.7.2)
+  - HyphenateLite (3.2.1)
+
+DEPENDENCIES:
+  - BmobSDK
+  - HyphenateLite
+
+SPEC CHECKSUMS:
+  BmobSDK: e188cb31d6a8417ab668aee821da227d7512b865
+  HyphenateLite: b59f01fb6c1663e9f8f3998623a942240bafa868
+
+PODFILE CHECKSUM: b3546f393c3013eaa32ad14fd6ba7704e569a214
+
+COCOAPODS: 1.0.1

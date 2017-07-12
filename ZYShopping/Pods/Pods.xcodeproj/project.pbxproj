@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		097E90F1EC7B38609B4EC415BDC04F70 /* Pods-ZYShopping-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F87B8D1B3A6DD563EDA136464648421F /* Pods-ZYShopping-dummy.m */; };
+		AA93E5A7CE89D3C418A8DA1D613CA83C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		01B9A0A0547474DC83BE102B0A0F0D16 /* EMCommonDefs.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCommonDefs.h; path = HyphenateSDK/include/EMCommonDefs.h; sourceTree = "<group>"; };
+		035308E3615EF54621D41CBF7BE66610 /* EMPageResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPageResult.h; path = HyphenateSDK/include/EMPageResult.h; sourceTree = "<group>"; };
+		1081E1707B9C7D0DEC3DDAC76380E0A2 /* EMClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMClient.h; path = HyphenateSDK/include/EMClient.h; sourceTree = "<group>"; };
+		1BBA55AFAA1C29460C3ACBB29A3F95F9 /* EMOptions+PrivateDeploy.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMOptions+PrivateDeploy.h"; path = "HyphenateSDK/include/EMOptions+PrivateDeploy.h"; sourceTree = "<group>"; };
+		1E01B70FCB2342C3D5FECC9DAE09AEC0 /* IEMChatroomManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatroomManager.h; path = HyphenateSDK/include/IEMChatroomManager.h; sourceTree = "<group>"; };
+		21301B7DB34B5165FD98ADE9A6574124 /* EMChatroomManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroomManagerDelegate.h; path = HyphenateSDK/include/EMChatroomManagerDelegate.h; sourceTree = "<group>"; };
+		3B9CDF1EA8D38EB95BF9CB44AA2A0E5F /* Pods-ZYShopping-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYShopping-frameworks.sh"; sourceTree = "<group>"; };
+		3E8EDBF335783B61CC07599516BB3142 /* EMContactManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMContactManagerDelegate.h; path = HyphenateSDK/include/EMContactManagerDelegate.h; sourceTree = "<group>"; };
+		4153AC506E25E59795935F6AE6845E82 /* EMErrorCode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMErrorCode.h; path = HyphenateSDK/include/EMErrorCode.h; sourceTree = "<group>"; };
+		4AACD7D62616387D5B508A78129FF5B1 /* Pods-ZYShopping.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYShopping.debug.xcconfig"; sourceTree = "<group>"; };
+		4B8F0E799EAA4E5F59B36525C6FCA2A5 /* EMCursorResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCursorResult.h; path = HyphenateSDK/include/EMCursorResult.h; sourceTree = "<group>"; };
+		4E5CB23A1B63A7E5C869BE75F76A4A85 /* EMVideoMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVideoMessageBody.h; path = HyphenateSDK/include/EMVideoMessageBody.h; sourceTree = "<group>"; };
+		52A3E404E9945439EFC34A45911CA3CB /* EMFileMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMFileMessageBody.h; path = HyphenateSDK/include/EMFileMessageBody.h; sourceTree = "<group>"; };
+		6075CDD8D5A850F32157B83C561D1BD8 /* EMError.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMError.h; path = HyphenateSDK/include/EMError.h; sourceTree = "<group>"; };
+		68854DE37269534DF31EFE4C10B9519D /* EMGroupManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupManagerDelegate.h; path = HyphenateSDK/include/EMGroupManagerDelegate.h; sourceTree = "<group>"; };
+		7024D957ED6D1502DB438C83B256053D /* EMCmdMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMCmdMessageBody.h; path = HyphenateSDK/include/EMCmdMessageBody.h; sourceTree = "<group>"; };
+		860C12342A348BA365C246634131250B /* EMImageMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMImageMessageBody.h; path = HyphenateSDK/include/EMImageMessageBody.h; sourceTree = "<group>"; };
+		8F90B54DFD0A48E533CBB976C27A1CFF /* IEMContactManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMContactManager.h; path = HyphenateSDK/include/IEMContactManager.h; sourceTree = "<group>"; };
+		8FA091EE08723BE8A60E19FAA1CBB5A4 /* Pods-ZYShopping-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZYShopping-acknowledgements.markdown"; sourceTree = "<group>"; };
+		908C3695F6F15EE428FB4830E95622B5 /* EMConversation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMConversation.h; path = HyphenateSDK/include/EMConversation.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		943F83CAAA37ED3D55E9E33E9B5D4B18 /* EMOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMOptions.h; path = HyphenateSDK/include/EMOptions.h; sourceTree = "<group>"; };
+		9595E27D7A13CAB998F353958C1443D7 /* BmobSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BmobSDK.framework; sourceTree = "<group>"; };
+		9B8F44600C4E93A86432045C119E1BB8 /* EMMessage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessage.h; path = HyphenateSDK/include/EMMessage.h; sourceTree = "<group>"; };
+		9FBF186EBAB17650F4AA1DD5EA1E08DE /* EMLocationMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMLocationMessageBody.h; path = HyphenateSDK/include/EMLocationMessageBody.h; sourceTree = "<group>"; };
+		AA3BE73C058F136744694FB44F0E5BC2 /* EMChatManagerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatManagerDelegate.h; path = HyphenateSDK/include/EMChatManagerDelegate.h; sourceTree = "<group>"; };
+		AC0ED7384522C46C70ABE02D8E2BFA85 /* libPods-ZYShopping.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZYShopping.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7F9EEC8ABEC5F5A03894F2CC40BD204 /* EMGroup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroup.h; path = HyphenateSDK/include/EMGroup.h; sourceTree = "<group>"; };
+		BA89455FA810978B0B209FBE8120759C /* EMTextMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMTextMessageBody.h; path = HyphenateSDK/include/EMTextMessageBody.h; sourceTree = "<group>"; };
+		BB8E629FC171CF97ECFBC8802EB3A91E /* EMChatroom.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMChatroom.h; path = HyphenateSDK/include/EMChatroom.h; sourceTree = "<group>"; };
+		BD9072EAAD5CA4872FBF38453ED3B6B4 /* IEMChatManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMChatManager.h; path = HyphenateSDK/include/IEMChatManager.h; sourceTree = "<group>"; };
+		BDF2C71BE1E5D3E4100793AAA91866D6 /* EMClientDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMClientDelegate.h; path = HyphenateSDK/include/EMClientDelegate.h; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D5353CC3117A298B77FB9DB50640401D /* EMGroupOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMGroupOptions.h; path = HyphenateSDK/include/EMGroupOptions.h; sourceTree = "<group>"; };
+		D9D6FA01B9EE0CFDFDD23670AC9184DD /* EMSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMSDK.h; path = HyphenateSDK/include/EMSDK.h; sourceTree = "<group>"; };
+		DAE007DB910FDCD4D17DA5A1EFD87742 /* EMMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMMessageBody.h; path = HyphenateSDK/include/EMMessageBody.h; sourceTree = "<group>"; };
+		E21306A872DD2F9E22B787226A6976C2 /* EMPushOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMPushOptions.h; path = HyphenateSDK/include/EMPushOptions.h; sourceTree = "<group>"; };
+		E3B7B9AA2EEA7563C7C22534363024E9 /* Pods-ZYShopping-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZYShopping-acknowledgements.plist"; sourceTree = "<group>"; };
+		E8C4AAAB56BF95F284C08CC6E5AD3F60 /* libHyphenateSDK.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libHyphenateSDK.a; path = HyphenateSDK/lib/libHyphenateSDK.a; sourceTree = "<group>"; };
+		F13195E77F8C4F0EF56EDF799EDF3A56 /* Pods-ZYShopping.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZYShopping.release.xcconfig"; sourceTree = "<group>"; };
+		F3E7DD7A39DF7EF13D0BDF929EBF4BFF /* EMVoiceMessageBody.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EMVoiceMessageBody.h; path = HyphenateSDK/include/EMVoiceMessageBody.h; sourceTree = "<group>"; };
+		F6DF382C2ACD9D56004313ADF32FBAC7 /* IEMGroupManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IEMGroupManager.h; path = HyphenateSDK/include/IEMGroupManager.h; sourceTree = "<group>"; };
+		F87B8D1B3A6DD563EDA136464648421F /* Pods-ZYShopping-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZYShopping-dummy.m"; sourceTree = "<group>"; };
+		FD72B1FBB509A3E9E2E213FC0871709E /* Pods-ZYShopping-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZYShopping-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E0D774C4ACD8F3C673B6F56B628979 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA93E5A7CE89D3C418A8DA1D613CA83C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06FB74B384D5AC994B43F190693BD8B0 /* BmobSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C0FC59E57D84E099024E23CBB913BA8F /* Frameworks */,
+			);
+			path = BmobSDK;
+			sourceTree = "<group>";
+		};
+		19D71E13E8CF549D004AED2F331BD179 /* Pods-ZYShopping */ = {
+			isa = PBXGroup;
+			children = (
+				8FA091EE08723BE8A60E19FAA1CBB5A4 /* Pods-ZYShopping-acknowledgements.markdown */,
+				E3B7B9AA2EEA7563C7C22534363024E9 /* Pods-ZYShopping-acknowledgements.plist */,
+				F87B8D1B3A6DD563EDA136464648421F /* Pods-ZYShopping-dummy.m */,
+				3B9CDF1EA8D38EB95BF9CB44AA2A0E5F /* Pods-ZYShopping-frameworks.sh */,
+				FD72B1FBB509A3E9E2E213FC0871709E /* Pods-ZYShopping-resources.sh */,
+				4AACD7D62616387D5B508A78129FF5B1 /* Pods-ZYShopping.debug.xcconfig */,
+				F13195E77F8C4F0EF56EDF799EDF3A56 /* Pods-ZYShopping.release.xcconfig */,
+			);
+			name = "Pods-ZYShopping";
+			path = "Target Support Files/Pods-ZYShopping";
+			sourceTree = "<group>";
+		};
+		2305A768B70E8B919A3EA86521504BD1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				06FB74B384D5AC994B43F190693BD8B0 /* BmobSDK */,
+				AFB497E97C62AC301D26CA6D840769F9 /* HyphenateLite */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				2305A768B70E8B919A3EA86521504BD1 /* Pods */,
+				B986E82D3802183187F5DD309C9D8DFD /* Products */,
+				EB6B3E221380E5F11E3809FB1F313D05 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E2C58B33BED5DB14FE3B74D6CE8D76F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E8C4AAAB56BF95F284C08CC6E5AD3F60 /* libHyphenateSDK.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AFB497E97C62AC301D26CA6D840769F9 /* HyphenateLite */ = {
+			isa = PBXGroup;
+			children = (
+				AA3BE73C058F136744694FB44F0E5BC2 /* EMChatManagerDelegate.h */,
+				BB8E629FC171CF97ECFBC8802EB3A91E /* EMChatroom.h */,
+				21301B7DB34B5165FD98ADE9A6574124 /* EMChatroomManagerDelegate.h */,
+				1081E1707B9C7D0DEC3DDAC76380E0A2 /* EMClient.h */,
+				BDF2C71BE1E5D3E4100793AAA91866D6 /* EMClientDelegate.h */,
+				7024D957ED6D1502DB438C83B256053D /* EMCmdMessageBody.h */,
+				01B9A0A0547474DC83BE102B0A0F0D16 /* EMCommonDefs.h */,
+				3E8EDBF335783B61CC07599516BB3142 /* EMContactManagerDelegate.h */,
+				908C3695F6F15EE428FB4830E95622B5 /* EMConversation.h */,
+				4B8F0E799EAA4E5F59B36525C6FCA2A5 /* EMCursorResult.h */,
+				6075CDD8D5A850F32157B83C561D1BD8 /* EMError.h */,
+				4153AC506E25E59795935F6AE6845E82 /* EMErrorCode.h */,
+				52A3E404E9945439EFC34A45911CA3CB /* EMFileMessageBody.h */,
+				B7F9EEC8ABEC5F5A03894F2CC40BD204 /* EMGroup.h */,
+				68854DE37269534DF31EFE4C10B9519D /* EMGroupManagerDelegate.h */,
+				D5353CC3117A298B77FB9DB50640401D /* EMGroupOptions.h */,
+				860C12342A348BA365C246634131250B /* EMImageMessageBody.h */,
+				9FBF186EBAB17650F4AA1DD5EA1E08DE /* EMLocationMessageBody.h */,
+				9B8F44600C4E93A86432045C119E1BB8 /* EMMessage.h */,
+				DAE007DB910FDCD4D17DA5A1EFD87742 /* EMMessageBody.h */,
+				943F83CAAA37ED3D55E9E33E9B5D4B18 /* EMOptions.h */,
+				1BBA55AFAA1C29460C3ACBB29A3F95F9 /* EMOptions+PrivateDeploy.h */,
+				035308E3615EF54621D41CBF7BE66610 /* EMPageResult.h */,
+				E21306A872DD2F9E22B787226A6976C2 /* EMPushOptions.h */,
+				D9D6FA01B9EE0CFDFDD23670AC9184DD /* EMSDK.h */,
+				BA89455FA810978B0B209FBE8120759C /* EMTextMessageBody.h */,
+				4E5CB23A1B63A7E5C869BE75F76A4A85 /* EMVideoMessageBody.h */,
+				F3E7DD7A39DF7EF13D0BDF929EBF4BFF /* EMVoiceMessageBody.h */,
+				BD9072EAAD5CA4872FBF38453ED3B6B4 /* IEMChatManager.h */,
+				1E01B70FCB2342C3D5FECC9DAE09AEC0 /* IEMChatroomManager.h */,
+				8F90B54DFD0A48E533CBB976C27A1CFF /* IEMContactManager.h */,
+				F6DF382C2ACD9D56004313ADF32FBAC7 /* IEMGroupManager.h */,
+				8E2C58B33BED5DB14FE3B74D6CE8D76F /* Frameworks */,
+			);
+			path = HyphenateLite;
+			sourceTree = "<group>";
+		};
+		B986E82D3802183187F5DD309C9D8DFD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC0ED7384522C46C70ABE02D8E2BFA85 /* libPods-ZYShopping.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C0FC59E57D84E099024E23CBB913BA8F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9595E27D7A13CAB998F353958C1443D7 /* BmobSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EB6B3E221380E5F11E3809FB1F313D05 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				19D71E13E8CF549D004AED2F331BD179 /* Pods-ZYShopping */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		775FE2F8F3C75E28FCD174C202C675BC /* Pods-ZYShopping */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2AD77157FBC5CF9DBC5CA1897008F4FA /* Build configuration list for PBXNativeTarget "Pods-ZYShopping" */;
+			buildPhases = (
+				FAD9208B23588F92B61C3E38A563FC73 /* Sources */,
+				A0E0D774C4ACD8F3C673B6F56B628979 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZYShopping";
+			productName = "Pods-ZYShopping";
+			productReference = AC0ED7384522C46C70ABE02D8E2BFA85 /* libPods-ZYShopping.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B986E82D3802183187F5DD309C9D8DFD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				775FE2F8F3C75E28FCD174C202C675BC /* Pods-ZYShopping */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FAD9208B23588F92B61C3E38A563FC73 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				097E90F1EC7B38609B4EC415BDC04F70 /* Pods-ZYShopping-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B9380C68455EC35864D991B507F867C6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AACD7D62616387D5B508A78129FF5B1 /* Pods-ZYShopping.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		EF66956F33D560E14DF654370C9B8BA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F13195E77F8C4F0EF56EDF799EDF3A56 /* Pods-ZYShopping.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2AD77157FBC5CF9DBC5CA1897008F4FA /* Build configuration list for PBXNativeTarget "Pods-ZYShopping" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B9380C68455EC35864D991B507F867C6 /* Debug */,
+				EF66956F33D560E14DF654370C9B8BA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

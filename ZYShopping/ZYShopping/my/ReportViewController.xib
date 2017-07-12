@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11201" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="ReportViewController" customModule="ZYShopping" customModuleProvider="target">
+            <connections>
+                <outlet property="textV" destination="FI9-m4-gZ4" id="TkF-c4-mc0"/>
+                <outlet property="upBtn" destination="5fW-fo-Srr" id="q2O-W3-d4p"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="FI9-m4-gZ4">
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="150" id="2Yx-es-Ch6"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                </textView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5fW-fo-Srr">
+                    <color key="backgroundColor" red="0.25098039215686274" green="0.66666666666666663" blue="0.98039215686274506" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="LRi-bq-gmU"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <state key="normal" title="提交">
+                        <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="upBtnActin:" destination="-1" eventType="touchUpInside" id="20J-Es-1Gt"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="若您的举报属实，我门将对其进行警告或封号处理。若您是恶意举报，将会影响您的可信度。" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PmV-h6-mUs">
+                    <constraints>
+                        <constraint firstAttribute="height" constant="63" id="WB7-JR-yb3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="举报原因" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jI1-h9-iy4">
+                    <constraints>
+                        <constraint firstAttribute="width" constant="83" id="Lwn-My-s5l"/>
+                        <constraint firstAttribute="height" constant="21" id="YWG-7Y-eUT"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.91683027923211169" green="0.91683027923211169" blue="0.91683027923211169" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="PmV-h6-mUs" firstAttribute="top" secondItem="5fW-fo-Srr" secondAttribute="bottom" constant="16" id="AX4-tE-X4V"/>
+                <constraint firstAttribute="trailing" secondItem="PmV-h6-mUs" secondAttribute="trailing" constant="16" id="Jre-kZ-vSD"/>
+                <constraint firstAttribute="trailing" secondItem="5fW-fo-Srr" secondAttribute="trailing" constant="16" id="MHc-AG-PkP"/>
+                <constraint firstItem="PmV-h6-mUs" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="NEy-qZ-0cX"/>
+                <constraint firstItem="5fW-fo-Srr" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="SPz-jI-aC5"/>
+                <constraint firstItem="5fW-fo-Srr" firstAttribute="top" secondItem="FI9-m4-gZ4" secondAttribute="bottom" constant="37" id="YLb-zY-mTh"/>
+                <constraint firstItem="FI9-m4-gZ4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="90" id="gkM-3Q-MhA"/>
+                <constraint firstAttribute="trailing" secondItem="FI9-m4-gZ4" secondAttribute="trailing" constant="16" id="lAC-Zi-7qU"/>
+                <constraint firstItem="FI9-m4-gZ4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="mv6-Ev-n8N"/>
+                <constraint firstItem="jI1-h9-iy4" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="mzs-Jq-Oxm"/>
+                <constraint firstItem="jI1-h9-iy4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="o20-ET-lFO"/>
+            </constraints>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

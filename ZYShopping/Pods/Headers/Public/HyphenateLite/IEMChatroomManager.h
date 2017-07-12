@@ -1,0 +1,1 @@
+../../../HyphenateLite/HyphenateSDK/include/IEMChatroomManager.h

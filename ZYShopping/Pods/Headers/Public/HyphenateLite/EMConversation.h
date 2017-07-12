@@ -1,0 +1,1 @@
+../../../HyphenateLite/HyphenateSDK/include/EMConversation.h
