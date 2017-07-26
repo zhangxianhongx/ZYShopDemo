@@ -81,7 +81,8 @@ class HomeInfoHeaderView: UIView {
                     self.frame = CGRect.init(x: 0, y: 0, width: kScreenWidth, height: 238 + size.height + imgSize.height);
                     self.imgChiceView?.frame = self.imgBgview.bounds;
                     self.imgChiceView?.imageArray = imgArr;
-                    
+                    let tab = self.superview as! UITableView;
+                    tab.tableHeaderView = self;
                 };
                 
                 
