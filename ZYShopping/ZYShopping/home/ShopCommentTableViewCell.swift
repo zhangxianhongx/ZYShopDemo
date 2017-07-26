@@ -24,7 +24,9 @@ class ShopCommentTableViewCell: UITableViewCell {
         
         imageV.layer.cornerRadius = 6;
         imageV.layer.masksToBounds = true;
+
         commentLabel.numberOfLines = 0;
+
         
     }
     func setDataDic(dic:Dictionary<String,Any>){
